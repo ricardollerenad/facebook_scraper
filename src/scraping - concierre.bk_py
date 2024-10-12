@@ -1,0 +1,36 @@
+from src.driver_setup import setup_driver
+from src.scrolling import scroll_down
+from src.extraction import extract_posts_info
+from src.database import upload_to_mongodb
+import time
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+def scrape_facebook(driver, url, max_posts):
+    driver.get(url)
+    time.sleep(5)
+
+    # Intentar cerrar la ventana emergente si aparece
+    try:
+        close_popup = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, "//div[@role='button' and contains(@class, 'x1i10hfl') and @aria-label='Cerrar']"))
+        )
+        close_popup.click()
+    except Exception as e:
+        print(f"No se encontró la ventana emergente o ya se cerró: {e}")
+
+
+    posts_data = []
+
+    while len(posts_data) < max_posts:
+        new_posts = extract_posts_info(driver)
+        posts_data.extend(new_posts)
+
+        if len(posts_data) >= max_posts:
+            break
+
+        scroll_down(driver)
+        time.sleep(5)
+    
+    return posts_data[:max_posts]
