@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# ESTRUCTURA
+>>>>>>> 67497dcf50550e64961cdaedcd35a29ded0563fb
 /scraping_facebook_project
 │
 ├── /fanpages
@@ -109,4 +113,8 @@ Resumen del Flujo
 	Crear y/o editar requirements.txt con las dependencias necesarias.
 	Instalar dependencias usando pip install -r requirements.txt.
 	Ejecutar el código desde Thonny, asegurándote de que el entorno virtual esté activado.
+<<<<<<< HEAD
 	Este proceso te ayudará a mantener tu entorno de desarrollo ordenado y controlado, especialmente cuando estés usando diferentes configuraciones en varios proyectos.
+=======
+	Este proceso te ayudará a mantener tu entorno de desarrollo ordenado y controlado, especialmente cuando estés usando diferentes configuraciones en varios proyectos.
+>>>>>>> 67497dcf50550e64961cdaedcd35a29ded0563fb
