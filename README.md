@@ -80,9 +80,10 @@ Actualizar dependencias: Si en algún momento necesitas actualizar las dependenc
 
 ## Resumen del Flujo
 - Crear el entorno virtual (puede ser desde Thonny o la terminal).
--Activar el entorno virtual.
--Crear y/o editar requirements.txt con las dependencias necesarias.
--Instalar dependencias usando pip install -r requirements.txt.
--Ejecutar el código desde Thonny, asegurándote de que el entorno virtual esté activado.
--Este proceso te ayudará a mantener tu entorno de desarrollo ordenado y controlado, especialmente cuando estés usando diferentes configuraciones en varios proyectos.
+- Activar el entorno virtual.
+- Crear y/o editar requirements.txt con las dependencias necesarias.
+- Instalar dependencias usando pip install -r requirements.txt.
+- Ejecutar el código desde Thonny, asegurándote de que el entorno virtual esté activado.
+- Este proceso te ayudará a mantener tu entorno de desarrollo ordenado y controlado, especialmente cuando estés usando diferentes
+configuraciones en varios proyectos.
 
