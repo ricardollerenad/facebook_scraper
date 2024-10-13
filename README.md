@@ -1,22 +1,20 @@
 # ESTRUCTURA
-=====================
 
 /scraping_facebook_project
-│
-├── /fanpages
-│   └── fanpages.txt               # Archivo con las URLs de las fanpages
-│
-├── /src
-│   ├── __init__.py                # Para marcar la carpeta como un módulo Python
-│   ├── driver_setup.py            # Script para configurar Selenium y el driver
-│   ├── scrolling.py               # Script con la lógica de scroll
-│   ├── extraction.py              # Script que extrae los datos de los posts
-│   ├── database.py                # Script para manejar la subida a MongoDB
-│   └── scraping.py                # Script principal de scraping
-│
-├── requirements.txt               # Archivo con las dependencias del proyecto
-├── readme.txt                     # Archivo de instrucciones
-└── run_scraping.py                # Script principal que ejecuta todo el proceso
+	/fanpages
+		fanpages.txt               # Archivo con las URLs de las fanpages
+
+	/src
+		__init__.py                # Para marcar la carpeta como un módulo Python
+		driver_setup.py            # Script para configurar Selenium y el driver
+		scrolling.py               # Script con la lógica de scroll
+		extraction.py              # Script que extrae los datos de los posts
+		database.py                # Script para manejar la subida a MongoDB
+		scraping.py                # Script principal de scraping
+
+	requirements.txt               # Archivo con las dependencias del proyecto
+	readme.txt                     # Archivo de instrucciones
+	run_scraping.py                # Script principal que ejecuta todo el proceso
 
 
 ----------------------------------------
