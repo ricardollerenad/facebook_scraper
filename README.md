@@ -18,8 +18,7 @@
 
 
 ----------------------------------------
-
-# Facebook Fanpage Scraper
+# Facebook Fanpage Scraper (ricardo)
 
 ## Instalación
 
