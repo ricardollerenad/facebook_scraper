@@ -1,4 +1,4 @@
-# ESTRUCTURA - Por fin puede actualizar
+# ESTRUCTURA - Rama de develop
 ----------------------------------------
 /scraping_facebook_project
 	/fanpages
