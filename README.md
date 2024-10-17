@@ -1,4 +1,4 @@
-# ESTRUCTURA --- Ricardo Llerena Delgado ---
+# ESTRUCTURA --- 
 ----------------------------------------
 /scraping_facebook_project
 	/fanpages
